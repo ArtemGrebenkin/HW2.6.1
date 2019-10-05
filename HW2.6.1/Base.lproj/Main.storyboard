@@ -66,8 +66,10 @@
                         <constraints>
                             <constraint firstItem="jYI-dO-H3q" firstAttribute="top" secondItem="Pee-wf-aMw" secondAttribute="bottom" constant="31" id="1FA-VZ-JBG"/>
                             <constraint firstItem="Pee-wf-aMw" firstAttribute="leading" secondItem="cma-sc-JCT" secondAttribute="leading" constant="39" id="Cbq-ct-pcH"/>
+                            <constraint firstItem="cma-sc-JCT" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="jYI-dO-H3q" secondAttribute="trailing" constant="287.5" id="TMS-PY-klz"/>
                             <constraint firstItem="jYI-dO-H3q" firstAttribute="leading" secondItem="cma-sc-JCT" secondAttribute="leading" constant="39" id="bV8-wX-SgY"/>
                             <constraint firstItem="Pee-wf-aMw" firstAttribute="top" secondItem="cma-sc-JCT" secondAttribute="top" constant="56" id="evw-Fg-g1a"/>
+                            <constraint firstItem="cma-sc-JCT" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Pee-wf-aMw" secondAttribute="trailing" constant="287.5" id="sXa-ge-egI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cma-sc-JCT"/>
                     </view>
