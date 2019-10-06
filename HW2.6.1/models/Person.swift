@@ -16,4 +16,7 @@ struct Person {
     var fullName: String {
         name + " " + surname
     }
+    var contacts: [String] {
+        [email, phone]
+    }
 }

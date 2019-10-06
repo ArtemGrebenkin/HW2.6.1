@@ -14,11 +14,12 @@
 		EE6FC5592348E06B00978B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6FC5572348E06B00978B51 /* LaunchScreen.storyboard */; };
 		EE6FC5612348E34F00978B51 /* PersonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FC5602348E34F00978B51 /* PersonsTableViewController.swift */; };
 		EE6FC5662348E8D800978B51 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FC5652348E8D800978B51 /* Person.swift */; };
-		EE6FC5682348FDC900978B51 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FC5672348FDC900978B51 /* DetailViewController.swift */; };
+		EE6FC56A23490AAC00978B51 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6FC56923490AAC00978B51 /* Default-568h@2x.png */; };
+		EEFDBC50234A200D007F033B /* PersonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFDBC4F234A200D007F033B /* PersonViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE6FC5492348E06A00978B51 /* HW2.6.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.6.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6FC5492348E06A00978B51 /* HW2.6.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.6.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6FC54C2348E06A00978B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE6FC54E2348E06A00978B51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EE6FC5532348E06A00978B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,7 +28,8 @@
 		EE6FC55A2348E06B00978B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE6FC5602348E34F00978B51 /* PersonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableViewController.swift; sourceTree = "<group>"; };
 		EE6FC5652348E8D800978B51 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		EE6FC5672348FDC900978B51 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EE6FC56923490AAC00978B51 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EEFDBC4F234A200D007F033B /* PersonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		EE6FC5402348E06A00978B51 = {
 			isa = PBXGroup;
 			children = (
+				EE6FC56923490AAC00978B51 /* Default-568h@2x.png */,
 				EE6FC54B2348E06A00978B51 /* HW2.6.1 */,
 				EE6FC54A2348E06A00978B51 /* Products */,
 			);
@@ -52,7 +55,7 @@
 		EE6FC54A2348E06A00978B51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE6FC5492348E06A00978B51 /* HW2.6.1.app */,
+				EE6FC5492348E06A00978B51 /* HW2.6.2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +68,7 @@
 				EE6FC54E2348E06A00978B51 /* SceneDelegate.swift */,
 				EE6FC5522348E06A00978B51 /* Main.storyboard */,
 				EE6FC5602348E34F00978B51 /* PersonsTableViewController.swift */,
-				EE6FC5672348FDC900978B51 /* DetailViewController.swift */,
+				EEFDBC4F234A200D007F033B /* PersonViewCell.swift */,
 				EE6FC5552348E06B00978B51 /* Assets.xcassets */,
 				EE6FC5572348E06B00978B51 /* LaunchScreen.storyboard */,
 				EE6FC55A2348E06B00978B51 /* Info.plist */,
@@ -84,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE6FC5482348E06A00978B51 /* HW2.6.1 */ = {
+		EE6FC5482348E06A00978B51 /* HW2.6.2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE6FC55D2348E06B00978B51 /* Build configuration list for PBXNativeTarget "HW2.6.1" */;
+			buildConfigurationList = EE6FC55D2348E06B00978B51 /* Build configuration list for PBXNativeTarget "HW2.6.2" */;
 			buildPhases = (
 				EE6FC5452348E06A00978B51 /* Sources */,
 				EE6FC5462348E06A00978B51 /* Frameworks */,
@@ -96,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = HW2.6.1;
+			name = HW2.6.2;
 			productName = HW2.6.1;
-			productReference = EE6FC5492348E06A00978B51 /* HW2.6.1.app */;
+			productReference = EE6FC5492348E06A00978B51 /* HW2.6.2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EE6FC5442348E06A00978B51 /* Build configuration list for PBXProject "HW2.6.1" */;
+			buildConfigurationList = EE6FC5442348E06A00978B51 /* Build configuration list for PBXProject "HW2.6.2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE6FC5482348E06A00978B51 /* HW2.6.1 */,
+				EE6FC5482348E06A00978B51 /* HW2.6.2 */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE6FC5592348E06B00978B51 /* LaunchScreen.storyboard in Resources */,
+				EE6FC56A23490AAC00978B51 /* Default-568h@2x.png in Resources */,
 				EE6FC5562348E06B00978B51 /* Assets.xcassets in Resources */,
 				EE6FC5542348E06A00978B51 /* Main.storyboard in Resources */,
 			);
@@ -153,8 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE6FC54D2348E06A00978B51 /* AppDelegate.swift in Sources */,
+				EEFDBC50234A200D007F033B /* PersonViewCell.swift in Sources */,
 				EE6FC54F2348E06A00978B51 /* SceneDelegate.swift in Sources */,
-				EE6FC5682348FDC900978B51 /* DetailViewController.swift in Sources */,
 				EE6FC5662348E8D800978B51 /* Person.swift in Sources */,
 				EE6FC5612348E34F00978B51 /* PersonsTableViewController.swift in Sources */,
 			);
@@ -307,8 +311,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "www.grebenkin.art.HW2-6-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.grebenkin.art.HW2-6-2";
+				PRODUCT_NAME = HW2.6.2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -325,8 +329,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "www.grebenkin.art.HW2-6-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.grebenkin.art.HW2-6-2";
+				PRODUCT_NAME = HW2.6.2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -335,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE6FC5442348E06A00978B51 /* Build configuration list for PBXProject "HW2.6.1" */ = {
+		EE6FC5442348E06A00978B51 /* Build configuration list for PBXProject "HW2.6.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE6FC55B2348E06B00978B51 /* Debug */,
@@ -344,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE6FC55D2348E06B00978B51 /* Build configuration list for PBXNativeTarget "HW2.6.1" */ = {
+		EE6FC55D2348E06B00978B51 /* Build configuration list for PBXNativeTarget "HW2.6.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE6FC55E2348E06B00978B51 /* Debug */,
